@@ -141,14 +141,20 @@ function tieneTresDigitos(num) {
    // Si el número recibido tiene tres dígitos retornar true.
    // Caso contrario, retornar false.
    if(num >99 && num <999) return true;
-   else False;
+   else return false;
 }
 
 function doWhile(num) {
    // Implementar una función que aumente el valor recibido en 5 hasta un límite de 8 veces.
    // Retornar el valor final.
    // Utilizar el bucle Do-While.
-   // Tu código:
+   let i=0
+   do{
+      num = num+5
+      i++
+   }while(i!=8){
+      return(num)
+   }
 }
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
